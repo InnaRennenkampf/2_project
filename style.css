@@ -1,0 +1,681 @@
+body {
+    font-family: "NotoSansRegular", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin: 0;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.intro {
+    width: 100%;
+    margin-bottom: 150px;
+    background: url("images/background.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro-content {
+    margin-top: 70px;
+}
+
+h2 {
+    font-family: "NotoSansBold", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+}
+
+h3 {
+    font-family: "NotoSansBold", sans-serif;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    color: #868585;
+}
+
+b {
+    font-family: "NotoSansBold", sans-serif;
+    font-size: 18px;
+    color: #303030;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030;
+}
+
+a {
+    text-decoration: none !important;
+    border: none !important;
+}
+
+.title-1 p {
+    margin-bottom: 0;
+    margin-top: 140px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.title-2 h1 {
+    font-family: "NotoSansBold", sans-serif;
+    margin: 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+.title-3 h2 {
+    margin-top: 2px;
+    margin-bottom: 65px;
+    color: #FFFFFF;
+}
+
+.title-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-4 p {
+    margin: 0 18px 0 0;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.title-4 a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 235px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-img {
+    margin-top: 85px;
+}
+
+.service {
+    width: 495px;
+}
+
+.service p {
+    margin: 16px 0 50px;
+}
+
+.service p:last-child {
+    margin-bottom: 0;
+}
+
+.sale {
+    width: 495px;
+}
+
+.nav p,
+.nav a {
+    display: inline;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.nav p:last-child {
+    margin-right: 0;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    width: 495px;
+    margin: 120px 0 85px;
+}
+
+.price-description p {
+    display: block;
+    margin: 0;
+}
+
+.price-img img {
+    margin-right: 38px;
+    max-width: 228px;
+    max-height: 200px;
+}
+
+.arrows {
+    display: flex;
+    margin-top: 70px;
+}
+
+.arrow-left img {
+    margin-right: 22px;
+}
+
+.purchase-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-1,
+.block-2 {
+    width: 221px;
+}
+
+.block-1 b,
+.block-2 b {
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom: 0;
+    margin-top: 21px;
+}
+
+.block-1 p,
+.block-2 p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.definition {
+    display: block;
+    width: 600px;
+}
+
+.definition b {
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 17px;
+    margin-top: 85px;
+}
+
+.definition img {
+    width: 100%;
+}
+
+.quote-img {
+    margin-top: 150px;
+    width: 100%;
+    margin-bottom: 150px;
+    background: url("images/4.png") center no-repeat;
+}
+
+.container-small {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 673px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-small p {
+    margin: 136px 0;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.client {
+    width: 495px;
+}
+
+.client-arrows {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 276px;
+}
+
+.arrow-l img {
+    margin-right: 22px;
+}
+
+.example {
+    margin-top: 85px;
+    width: 600px;
+}
+
+.example-title {
+    margin-bottom: 30px;
+}
+
+.example-description {
+    margin-left: 51px;
+}
+
+.example-description p {
+    margin: 16px 0;
+}
+
+.example-description p:last-child {
+    margin-bottom: 86px;
+}
+
+.example-consultation {
+    margin-left: 51px;
+    margin-right: 18px;
+}
+
+.example-consultation a {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.example-consultation p {
+    margin-right: 18px;
+}
+
+.steps-description {
+    width: 495px;
+}
+
+.steps-description p {
+    margin-top: 0;
+}
+
+.steps-description h3 {
+    margin-bottom: 67px;
+}
+
+.steps-img img {
+    width: 600px;
+}
+
+.numbering p {
+    margin: 30px 0 11px;
+}
+
+.green-tariff,
+.steps {
+    margin-top: 150px;
+}
+
+.definition img {
+    width: 600px;
+    height: 525px;
+}
+
+.footer-img {
+    margin-top: 150px;
+    height: 730px;
+    background: url("images/7.png") center no-repeat;
+}
+
+.contact-form {
+    margin: 70px 0 161px;
+    width: 495px;
+    height: 393px;
+}
+
+.contact-form h2,
+.contact-company h2 {
+    margin-top: 0;
+    margin-bottom: 49px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+}
+
+.contact-input {
+    display: block;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 11px 0;
+    margin-bottom: 48px;
+    margin-top: 0;
+    background: transparent;
+}
+
+.contact-input::placeholder {
+    margin-bottom: 11px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.contact-form button {
+    display: flex;
+    align-items: center;
+    margin: 85px 0 0 0;
+    padding: 0;
+    border: 0;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+}
+
+.contact-form button img {
+    display: block;
+    margin-left: 18px;
+}
+
+.contact-company {
+    width: 600px;
+    margin-top: 70px;
+    margin-bottom: 239px;
+}
+
+.contact-company p {
+    margin: 0 0 40px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.contact-company p:last-child {
+    margin-bottom: 0;
+}
+
+.privacy-policy p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.footer-lower-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.soc-media-items {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc-media-item {
+    margin-right: 20px;
+}
+
+.soc-media-item:last-child {
+    margin-right: 0;
+}
+
+ul {
+    margin: 0 0 38px 0;
+    padding: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: "NotoSansRegular";
+    src: url('/Layout projects/22_project/fonts/NotoSans-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSansBold";
+    src: url("/Layout projects/22_project/fonts/NotoSans-Bold.ttf") format("truetype");
+}
+
+@media screen and (max-width: 1100px) {
+
+    .price {
+        margin: 60px 0 40px;
+    }
+
+    .example,
+    .definition b,
+    .service-img {
+        margin-top: 30px;
+    }
+
+    .example-description p:last-child {
+        margin-bottom: 40px;
+    }
+
+    h3,
+    .steps-description h3 {
+        margin-bottom: 20px;
+    }
+
+    .space-between {
+        display: block;
+    }
+
+    .space-between > div {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .purchase-description {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 40px;
+    }
+
+    .service,
+    .contact-input {
+        margin-bottom: 15px;
+    }
+
+    .price-img img,
+    .service-img img,
+    .definition img,
+    .client-img img,
+    .arrow-l img,
+    .arrow-r img,
+    .steps-img img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .client-arrows {
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    .arrow-l {
+        margin-right: 30px;
+    }
+
+    .example-title,
+    .contact-form button {
+        margin-top: 10px;
+    }
+
+    .contact-form h2, .contact-company h2 {
+        margin-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .contact-form {
+        margin: 0 auto;
+        height: 250px;
+    }
+
+    .example-description {
+        margin-left: 15px;
+    }
+
+    .contact-company {
+        margin-bottom: 140px;
+    }
+
+    .contact-company p {
+        margin: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .intro,
+    .green-tariff,
+    .steps,
+    .quote-img {
+        margin-bottom: 70px;
+    }
+
+    .steps,
+    .quote-img,
+    .green-tariff,
+    .steps,
+    .footer-img {
+        margin-top: 70px;
+    }
+
+    .price-description {
+        margin-left: 20px;
+    }
+
+    .title-4 img,
+    .example-consultation img,
+    .contact-form button img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .intro {
+        background-size: cover;
+    }
+
+    .arrows {
+        margin-top: 40px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    .service-img img,
+    .definition img,
+    .client-img img,
+    .arrow-l img,
+    .arrow-r img {
+        width: 80%;
+    }
+
+    .definition img {
+        height: 70%;
+    }
+
+    .steps-img img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .container-small p {
+        margin: 70px 0;
+    }
+
+    .purchase-description,
+    .block-1,
+    .block-2 {
+        display: block;
+    }
+
+    .nav p, .nav a {
+        margin-right: 20px;
+    }
+
+    .price {
+        display: inline;
+    }
+
+    .price-img {
+        margin: 20px 0;
+    }
+
+    .footer-lower-2 {
+        display: block;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .contact-company {
+        margin-bottom: 50px;
+    }
+
+    .privacy-policy p {
+        margin: 40px;
+    }
+
+    .contact-input {
+        width: 45%;
+    }
+
+    .contact-form {
+        margin: 20px;
+    }
+
+    .contact-form button,
+    .title-1 p {
+        font-size: 13px;
+    }
+
+    .title-4 img,
+    .example-consultation img,
+    .contact-form button img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-2 h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .title-4 a {
+        margin-bottom: 100px;
+    }
+
+    .title-1 p {
+        margin-top: 70px;
+    }
+
+    .container-small p {
+        font-size: 20px;
+    }
+
+    .example-consultation {
+        margin-left: 10px;
+    }
+}
