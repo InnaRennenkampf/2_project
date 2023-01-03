@@ -439,12 +439,12 @@ ul {
 
 @font-face {
     font-family: "NotoSansRegular";
-    src: url('/Layout projects/22_project/fonts/NotoSans-Regular.ttf') format("truetype");
+    src: url('/Layout projects/2_project/fonts/NotoSans-Regular.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "NotoSansBold";
-    src: url("/Layout projects/22_project/fonts/NotoSans-Bold.ttf") format("truetype");
+    src: url("/Layout projects/2_project/fonts/NotoSans-Bold.ttf") format("truetype");
 }
 
 @media screen and (max-width: 1100px) {
