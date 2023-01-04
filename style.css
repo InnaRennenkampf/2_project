@@ -73,7 +73,7 @@ a {
 
 
 .title-2 h1 {
-    font-family: "NotoSansBold", Tahoma;
+    font-family: "NotoSansBold", sans-serif;
     margin: 0;
     font-size: 64px;
     line-height: 87px;
@@ -671,10 +671,10 @@ ul {
 
 @font-face {
     font-family: "NotoSansRegular";
-    src: url('/Layout projects/2_project/fonts/NotoSans-Regular.ttf') format("truetype");
+    src: url('fonts/NotoSans-Regular.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "NotoSansBold";
-    src: url("/Layout projects/2_project/fonts/NotoSans-Bold.ttf") format("truetype");
+    src: url("fonts/NotoSans-Bold.ttf") format("truetype");
 }
