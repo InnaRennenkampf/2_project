@@ -71,13 +71,12 @@ a {
     color: #FFFFFF;
 }
 
+
 .title-2 h1 {
-    font-family: "NotoSansBold", sans-serif;
+    font-family: "NotoSansBold", Tahoma;
     margin: 0;
-    font-weight: 700;
     font-size: 64px;
     line-height: 87px;
-    font-variant: small-caps;
     color: #FFFFFF;
 }
 
@@ -437,16 +436,6 @@ ul {
     list-style: none;
 }
 
-@font-face {
-    font-family: "NotoSansRegular";
-    src: url('/Layout projects/2_project/fonts/NotoSans-Regular.ttf') format("truetype");
-}
-
-@font-face {
-    font-family: "NotoSansBold";
-    src: url("/Layout projects/2_project/fonts/NotoSans-Bold.ttf") format("truetype");
-}
-
 @media screen and (max-width: 1100px) {
 
     .price {
@@ -678,4 +667,14 @@ ul {
     .example-consultation {
         margin-left: 10px;
     }
+}
+
+@font-face {
+    font-family: "NotoSansRegular";
+    src: url('/Layout projects/2_project/fonts/NotoSans-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSansBold";
+    src: url("/Layout projects/2_project/fonts/NotoSans-Bold.ttf") format("truetype");
 }
